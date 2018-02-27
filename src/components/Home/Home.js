@@ -13,6 +13,7 @@ export class Home extends React.Component {
   
   placeSubmitHandler = (place) => {
     this.props.onAddPlace(place);
+    console.log('Place Added!')
   }
 
   placeDeletedHandler = () => {
